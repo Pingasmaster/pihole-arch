@@ -1,6 +1,6 @@
 # pihole-arch
 
-A guide on how to install pihole with unbound on arch linux. Everyrthing works just fine, except the web server.
+A guide on how to install pihole with unbound on arch linux. Everyrthing works just fine, except the web server. For those who wants just the code, check out the `code.sh` file.
 
 ## TLDR: just the complete code
 
