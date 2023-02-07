@@ -147,11 +147,11 @@ pihole restartdns
 
 ## Why ?
 
-Pihole is a software that allows you to host your own DNS server. It is usefull for security, privacy and responsiveness. iF you want to check out the original project, (go give them a star)[https://github.com/pi-hole/pi-hole]. Arch linux isn't supported by the official installer, and I only deploy servers on arch so I needed to find a way.
+Pihole is a software that allows you to host your own DNS server. It is usefull for security, privacy and responsiveness. iF you want to check out the original project, [go give them a star](https://github.com/pi-hole/pi-hole). Arch linux isn't supported by the official installer, and I only deploy servers on arch so I needed to find a way.
 
 ## How ?
 
-Turns out there is a (pihole package)[https://aur.archlinux.org/packages/pi-hole-server] in the (AUR)[https://aur.archlinux.org/] repositories, and even a page (on how to setup pihole)[https://wiki.archlinux.org/title/Pi-hole] on the ArchWiki!
+Turns out there is a (pihole package)[https://aur.archlinux.org/packages/pi-hole-server] in the [AUR](https://aur.archlinux.org/) repositories, and even a page [on how to setup pihole](https://wiki.archlinux.org/title/Pi-hole) on the ArchWiki!
 We need to install all its dependencies, and then to build it, and to set up our server.
 
 ## The code
@@ -169,7 +169,7 @@ mkdir build
 cd build/
 ```
 
-Now clone the (pihole packet)[] repository from aur:
+Now clone the [pihole packet](https://aur.archlinux.org/packages/pi-hole-server) repository from aur:
 
 ```
 git clone https://aur.archlinux.org/pi-hole-server.git
