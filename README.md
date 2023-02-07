@@ -151,7 +151,7 @@ Pihole is a software that allows you to host your own DNS server. It is usefull 
 
 ## How ?
 
-Turns out there is a (pihole package)[https://aur.archlinux.org/packages/pi-hole-server] in the [AUR](https://aur.archlinux.org/) repositories, and even a page [on how to setup pihole](https://wiki.archlinux.org/title/Pi-hole) on the ArchWiki!
+Turns out there is a [pihole package](https://aur.archlinux.org/packages/pi-hole-server) in the [AUR](https://aur.archlinux.org/) repositories, and even a page [on how to setup pihole](https://wiki.archlinux.org/title/Pi-hole) on the ArchWiki!
 We need to install all its dependencies, and then to build it, and to set up our server.
 
 ## The code
