@@ -45,7 +45,7 @@ rm -rf build
 
 To set everything up with unbound:
 
-__Don't forget to replace `192.168.0.0/24` with your own set of private ips._
+__Don't forget to replace `192.168.0.0/24` with your own set of private ips.__
 
 ```
 sudo pacman -S unbound
@@ -229,7 +229,7 @@ rm -rf build
 
 Then we will start installing unbound, configuring it properly and setting everything up in pihole for it to work!
 
-__Don't forget to replace `192.168.0.0/24` with your own set of private ips befor executing this code!_
+__Don't forget to replace `192.168.0.0/24` with your own set of private ips befor executing this code!__
 
 ```
 sudo pacman -S unbound
