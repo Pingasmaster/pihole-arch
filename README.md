@@ -49,7 +49,7 @@ __Don't forget to replace `192.168.0.0/24` with your own set of private ips.__
 
 ```
 sudo pacman -S unbound
-cat << EOF > /etc/unbound/unbound.conf
+sudo cat << EOF > /etc/unbound/unbound.conf
 server:
     # If no logfile is specified, syslog is used
     # logfile: "/var/log/unbound/unbound.log"
@@ -159,7 +159,7 @@ We need to install all its dependencies, and then to build it, and to set up our
 We first need to install all the packages that we will need to build packages later on. These are all dependencies or software we need to build our code (some are optionnal dependencies but required for our use case). `git` is used to clone repositories, so it is not stricly necessary but it is used for convenience here.
 
 ```
-sudo pacman -S --needed help2man git m4 perl textinfo make automake autoconf gcc base-devel
+sudo pacman -S --needed help2man git m4 perl wget make automake autoconf gcc base-devel
 ```
 
 Then, we will create a new folder and cd into it to keep our workflow clean and organized.
@@ -233,7 +233,7 @@ __Don't forget to replace `192.168.0.0/24` with your own set of private ips befo
 
 ```
 sudo pacman -S unbound
-cat << EOF > /etc/unbound/unbound.conf
+sudo cat << EOF > /etc/unbound/unbound.conf
 server:
     # If no logfile is specified, syslog is used
     # logfile: "/var/log/unbound/unbound.log"
