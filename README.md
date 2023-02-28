@@ -7,7 +7,7 @@ A guide on how to install pihole with unbound on arch linux. Everyrthing works j
 To install pihole:
 
 ```
-sudo pacman -S --needed help2man git m4 perl textinfo make automake autoconf gcc base-devel fakeroot
+sudo pacman -Syu --needed help2man git m4 perl make automake autoconf gcc base-devel fakeroot wget
 mkdir build
 cd build/
 git clone https://aur.archlinux.org/pi-hole-server.git
